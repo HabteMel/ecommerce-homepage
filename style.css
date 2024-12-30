@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar{
+    display: flex;
+    /* padding: 25px; */
+    justify-content: space-between;
+    align-items:center;
+    background-color: cornsilk;
+}
+
+.navBar > ul {
+    flex-grow: 0.1;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    list-style-type: none;
+}
+input {
+    border-radius: 25px;
+    border: 3px red solid;
+    padding: 0 5px 5px 5px;
+    align-self: self-start;
+    height: 25px;
+    width: 15em;
+}
