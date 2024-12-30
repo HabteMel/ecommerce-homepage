@@ -10,20 +10,22 @@
     align-items:center;
     background-color: cornsilk;
 }
-
+.navBar > img{
+    width: 10%;
+    padding: 15px;
+}
 .navBar > ul {
     flex-grow: 0.1;
     display: flex;
     justify-content: space-around;
+    padding-right: 15px;
 }
 li {
     list-style-type: none;
 }
 input {
     border-radius: 25px;
-    border: 3px red solid;
     padding: 0 5px 5px 5px;
-    align-self: self-start;
     height: 25px;
     width: 15em;
 }
@@ -39,9 +41,14 @@ input {
 }
 .hero > div{
     height: 250px;
-    border: 2px red solid;
+    border: 2px rgb(163, 163, 163) solid;
     border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.hero > div > img{
+    width: 50%;
 }
