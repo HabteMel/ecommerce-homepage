@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poppins";
 }
 
 .navBar{
@@ -11,7 +12,8 @@
     background-color: cornsilk;
 }
 .navBar > img{
-    width: 10%;
+    width: 40px;
+    height: 40px;
     padding: 15px;
 }
 .navBar > ul {
@@ -51,4 +53,8 @@ input {
 
 .hero > div > img{
     width: 50%;
+}
+
+.hero > div:hover{
+    background-color: #F5F5F5;
 }
